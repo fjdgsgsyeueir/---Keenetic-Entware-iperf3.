@@ -243,13 +243,13 @@ MAIL_TO="..."
 Сделай скрипт исполняемым:
 
 ```sh
-chmod +x /opt/recovery/adguardvpn_cli/iperf3_graph.sh
+chmod +x /opt/recovery/iperf3_graph.sh
 ```
 
 Запусти вручную:
 
 ```sh
-/opt/recovery/adguardvpn_cli/iperf3_graph.sh
+/opt/recovery/iperf3_graph.sh
 ```
 
 Посмотреть журнал:
@@ -289,7 +289,7 @@ cat /opt/var/log/iperf3_monthly_stats.json
 Например, запуск каждые 5 минут:
 
 ```cron
-*/5 * * * * /opt/recovery/adguardvpn_cli/iperf3_graph.sh
+*/5 * * * * /opt/recovery/iperf3_graph.sh
 ```
 
 Интервал можно изменить в соответствии с необходимой частотой измерений.
